@@ -1,0 +1,32 @@
+.top-space {
+    margin-top: 20px;
+}
+
+.bottom-space {
+    margin-bottom: 20px;
+}
+
+header {
+    padding-top: 100px;
+}
+
+#logo {
+    padding: 40px 0;
+    background: url('../images/logo.png') center -10px no-repeat;
+}
+
+ul.social {
+    font-size: 2em;
+}
+
+ul.social li
+{
+    position: relative;
+    display: inline-block;
+    margin: 0.25em;
+    top: 0;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+ul.social a:hover { color: #2a6496; }

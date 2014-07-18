@@ -1,0 +1,19 @@
+{
+    "name": "skeleton",
+    "description": "skeleton for yii web apps",
+    "authors": [
+        {
+            "name": "Paul Matyash",
+            "email": "web.4life@yahoo.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii": "1.1.15",
+        "tinymce/tinymce": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "models"
+        }
+    }
+}
