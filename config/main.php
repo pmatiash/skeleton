@@ -65,7 +65,7 @@ return array(
             'autoStart' => false,
         ),
         'db' => array(
-            'connectionString' => 'pgsql:host=localhost;dbname=skeleton',
+            'connectionString' => 'mysql:host=localhost;dbname=skeleton',
             'emulatePrepare' => true,
             'username' => '',
             'password' => '',

@@ -4,8 +4,6 @@ class m140710_082653_Users extends CDbMigration
 {
 	public function safeUp()
 	{
-        $this->execute("CREATE TYPE user_status AS ENUM('active', 'deleted')");
-
         // create table
         $this->createTable('users', array(
             'id'        => 'pk',
@@ -14,7 +12,7 @@ class m140710_082653_Users extends CDbMigration
             'salt'      => 'varchar(15) NOT NULL',
             'name'      => 'varchar(50) NULL',
             'role'      => 'varchar(20) NOT NULL',
-            'status'    => "user_status NOT NULL DEFAULT 'active'::user_status",
+            'status'    => "ENUM('active', 'deleted') NOT NULL DEFAULT 'active'",
         ));
 
         // add default admin user
@@ -33,7 +31,6 @@ class m140710_082653_Users extends CDbMigration
 	public function safeDown()
 	{
         $this->dropTable('users');
-        $this->execute("DROP TYPE user_status");
 	}
 
 }
