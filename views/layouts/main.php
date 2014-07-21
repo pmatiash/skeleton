@@ -16,7 +16,7 @@
                 </div>
                 <div>
                     <ul class="social top-space">
-                        <li><a href="https://github.com/webattic" target="_blank"><i class="fa fa-github-square"></i></a></li>
+                        <li><a href="https://github.com/webattic/skeleton" target="_blank"><i class="fa fa-github-square"></i></a></li>
                         <li class="twitter"><a href="http://twitter.com/web_4life" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
                         <li class="facebook"><a href="http://facebook.com/MatyashPaul"target="_blank"><i class="fa fa-facebook-square"></i></a></li>
                         <li class="linkedin"><a href="http://www.linkedin.com/in/matyash"target="_blank"><i class="fa fa-linkedin-square"></i></a></li>

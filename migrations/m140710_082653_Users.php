@@ -22,7 +22,7 @@ class m140710_082653_Users extends CDbMigration
         $passwordHash = \Model\User::getPasswordHash('admin', $salt);
 
         $this->insert('users', array(
-            'email'     => 'web.4life@yahoo.com',
+            'email'     => 'admin@matyash.pw',
             'password'  => $passwordHash,
             'salt'      => $salt,
             'name'      => 'SkeletonAdmin',
